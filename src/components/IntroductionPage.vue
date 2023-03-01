@@ -26,14 +26,15 @@ export default {
     background-color: white;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 0px solid black;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    max-width: 750px;
+    width: 750px;
     height: 200px;
     padding-left: 50px;
     padding-top: 20px;
     align-items: flex-start;
+    margin-top: 50px;
     
 
 }

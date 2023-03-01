@@ -24,7 +24,7 @@ export default {
 <style scoped>
 
 .rightPage {
-    border: 1px solid black;
+    border: 0px solid black;
     width: 350px;
     height: 300px;
     background-color: #4bbcbf;

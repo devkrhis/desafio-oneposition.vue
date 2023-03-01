@@ -5,8 +5,8 @@
             <h1> ${{ valueMonth }} </h1>
             <h3> per month </h3>
         </div>
-        <h3> Full access for less than $1 a day </h3>
-        <a> <button> Sign Up </button> </a>
+        <h4> Full access for less than $1 a day </h4>
+        <a href="https://www.linkedin.com/in/krhistopher-kauling-novak-b4364712a/" target="Pagina do Linkedin"> <button> Sign Up </button> </a>
     </div>
     
 </template>
@@ -25,7 +25,7 @@ export default {
 <style scoped>
 
 .leftPage {
-    border: 1px solid black;
+    border: 0px solid black;
     background-color: #2cb3af;
     width: 348px;
     height: 300px;
@@ -48,6 +48,11 @@ export default {
     color: white;
 }
 
+.leftPage h4 {
+    margin-top: 0px;
+    color: white;
+}
+
 .CustomLineBreak {
     display: flex;
     justify-content: flex-start;
@@ -58,6 +63,21 @@ export default {
     margin-left: 15px;
     color: rgba(199, 199, 199, 0.795);
     font-size: medium
+}
+
+.leftPage button {
+    color: white;
+    background-color: greenyellow;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.leftPage button:hover {
+    transition-delay: 2ms;
+    background-color: red;
 }
 
 
