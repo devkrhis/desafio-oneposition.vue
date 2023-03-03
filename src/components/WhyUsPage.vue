@@ -43,4 +43,9 @@ export default {
     font-size: x-small;
 }
 
+@media screen and (max-width: 320px){
+    
+    
+}
+
 </style>

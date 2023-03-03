@@ -30,8 +30,6 @@ export default {
 
 #initialGrade {
     background-color: gray;
-    width: 1024px;
-    height: 650px;
 }
 
 .topPage {

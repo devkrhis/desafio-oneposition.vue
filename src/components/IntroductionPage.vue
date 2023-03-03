@@ -1,10 +1,12 @@
 <template>
-    <div class="topPage">
+    <div class="">
+        <div class="topPage">
             <p class="firstLine"> Join our community </p>
             <p class="secondLine"> 30-day, hassle-free money back guarantee </p>
             <p class="thirdLine"> Gain access to our full library of tutorials along with expert code reviews.
-            Perfect for any developers who are serious about honing their skills. </p>
-            
+                Perfect for any developers who are serious about honing their skills. </p>            
+        </div>
+
     </div>
     
 </template>
@@ -55,6 +57,17 @@ export default {
     color: #dcdbde;
     margin-top: 0px;
     margin-bottom: 50px;
+}
+
+@media screen and(max-width: 750px){
+    .topPage{
+        width: 350px;
+        height: 300px;
+    }
+    .firstLine{
+        color: red
+    }
+    
 }
 
 
