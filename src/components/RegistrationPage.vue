@@ -27,7 +27,7 @@ export default {
 .leftPage {
     border: 0px solid black;
     background-color: #2cb3af;
-    width: 431px;
+    width: 325px;
     height: 300px;
     border-end-start-radius: 10px;
     padding-left: 50px;
@@ -80,17 +80,27 @@ export default {
     background-color: red;
 }
 
-@media screen and (max-width:750px){
+@media (max-width:700px){
     .leftPage{
-        width: 350px;
+        width: 200px;
         height: 300px;
+        margin-left: 10px;
         display: flex;
+        justify-items: center;
+        border-end-start-radius: 0px;
         
+    }
+
+    .leftPage button {
+        width: 150px;
+
+    }
+
+    .leftPage h4 {
+        width: 150px;
+        word-wrap: break-word;
     }
     
 }
-
-
-
 
 </style>

@@ -25,7 +25,7 @@ export default {
 
 .rightPage {
     border: 0px solid black;
-    width: 431px;
+    width: 325px;
     height: 300px;
     background-color: #4bbcbf;
     border-end-end-radius: 10px;
@@ -43,7 +43,15 @@ export default {
     font-size: x-small;
 }
 
-@media screen and (max-width: 320px){
+@media (max-width: 700px){
+    .rightPage{
+        width: 200px;
+        height: 300px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        border-end-end-radius: 10px; border-end-start-radius: 0px;
+    }
     
     
 }

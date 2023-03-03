@@ -1,13 +1,10 @@
 <template>
-    <div class="">
         <div class="topPage">
             <p class="firstLine"> Join our community </p>
             <p class="secondLine"> 30-day, hassle-free money back guarantee </p>
             <p class="thirdLine"> Gain access to our full library of tutorials along with expert code reviews.
                 Perfect for any developers who are serious about honing their skills. </p>            
         </div>
-
-    </div>
     
 </template>
 
@@ -27,6 +24,7 @@ export default {
 .topPage {
     background-color: white;
     display: flex;
+    width: 700px;
     flex-direction: column;
     border: 0px solid black;
     border-top-right-radius: 10px;
@@ -55,21 +53,32 @@ export default {
     color: #dcdbde;
     margin-top: 0px;
     margin-bottom: 50px;
+    word-wrap: break-word;
+    width: 600px;
 }
 
-@media screen and(min-width: 750px){
-    .p{
-        width: 350px;
-        height: 300px;
+@media (max-width: 700px){
+    .topPage{
+        width: 200px;
+        height: 250px;
+        margin-left: 10px;
         display: flex;
         flex-direction: column;
     }
-    .p{
-        color: red
+
+    .firstLine {
+        font-size: x-large;
+    }
+
+    .secondLine {
+    font-size: medium;
+}
+    .thirdLine{
+        width: 150px;
+        word-wrap: break-word;
     }
     
 }
-
 
 
 </style>

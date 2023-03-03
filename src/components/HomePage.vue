@@ -30,6 +30,7 @@ export default {
 
 #initialGrade {
     background-color: gray;
+    height: auto;
 }
 
 .topPage {
@@ -42,12 +43,19 @@ export default {
     justify-content: center;
 }
 
-@media screen and(max-width:700px){
-    .bottomPage {
+
+@media (max-width: 600px){
+    .topPage{
         display: flex;
         flex-direction: column;
     }
-    
+}
+
+@media (max-width: 600px){
+    .bottomPage{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 </style>
