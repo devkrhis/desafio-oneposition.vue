@@ -53,7 +53,7 @@ export default {
     color: #dcdbde;
     margin-top: 0px;
     margin-bottom: 50px;
-    word-wrap: break-word;
+    word-wrap: break-all;
     width: 600px;
 }
 
