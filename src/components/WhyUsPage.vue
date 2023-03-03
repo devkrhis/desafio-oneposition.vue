@@ -25,7 +25,7 @@ export default {
 
 .rightPage {
     border: 0px solid black;
-    width: 350px;
+    width: 431px;
     height: 300px;
     background-color: #4bbcbf;
     border-end-end-radius: 10px;

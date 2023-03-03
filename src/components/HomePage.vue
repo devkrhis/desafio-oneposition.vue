@@ -42,4 +42,12 @@ export default {
     justify-content: center;
 }
 
+@media screen and(max-width:700px){
+    .bottomPage {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
 </style>

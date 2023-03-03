@@ -27,7 +27,7 @@ export default {
 .leftPage {
     border: 0px solid black;
     background-color: #2cb3af;
-    width: 348px;
+    width: 431px;
     height: 300px;
     border-end-start-radius: 10px;
     padding-left: 50px;
@@ -78,6 +78,16 @@ export default {
 .leftPage button:hover {
     transition-delay: 2ms;
     background-color: red;
+}
+
+@media screen and (max-width:750px){
+    .leftPage{
+        width: 350px;
+        height: 300px;
+        display: flex;
+        
+    }
+    
 }
 
 

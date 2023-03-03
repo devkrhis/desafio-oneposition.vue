@@ -31,8 +31,6 @@ export default {
     border: 0px solid black;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    width: 750px;
-    height: 200px;
     padding-left: 50px;
     padding-top: 20px;
     align-items: flex-start;
@@ -59,12 +57,14 @@ export default {
     margin-bottom: 50px;
 }
 
-@media screen and(max-width: 750px){
-    .topPage{
+@media screen and(min-width: 750px){
+    .p{
         width: 350px;
         height: 300px;
+        display: flex;
+        flex-direction: column;
     }
-    .firstLine{
+    .p{
         color: red
     }
     
